@@ -118,7 +118,9 @@ function Layout({ children, page }) {
             <div className="card-wrapper">
               <div className="card">
                 <div className="card-front">
-                  <p>Vous residez à moins d'un kilomètre d'un parking?</p>
+                  <p>
+                    Vous residez à moins d&apos;un kilomètre d&apos;un parking?
+                  </p>
                   <p className="card-price">64 € / Mois</p>
                   <i className="arrow-icon fas fa-arrow-rigth"></i>
                 </div>
@@ -335,7 +337,7 @@ function Layout({ children, page }) {
       <section className="py-20 bg-gradient-custom">
         <div className="container mx-auto px-4 lg:px-0">
           <h3 className="text-center text-2xl lg:text-3xl font-bold mb-6">
-            So what's in Shared Hosting? A whole lot.
+            So what&apos;s in Shared Hosting? A whole lot.
           </h3>
           <div className="flex flex-wrap items-center">
             <div
@@ -442,7 +444,7 @@ function Layout({ children, page }) {
         <div className="container mx-auto px-4 lg:px-0">
           <div className="flex flex-wrap -mx-4">
             <div className="pl-0 lg:pl-4 w-full lg:w-1/3">
-              <a href="/" className="mb-10 inline-flex">
+              <a className="mb-10 inline-flex">
                 <img src="/assets/logo.svg" alt="Logo" />
               </a>
               <p className="leading-10 mb-5">
