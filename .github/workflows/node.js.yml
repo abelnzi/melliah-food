@@ -31,7 +31,7 @@ jobs:
     - run: npm export
     
     - name: deploy
-      uses: JamesIves/github-pages-deploy-action@4.2.5
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages
         folder: out # The folder the action should deploy.
