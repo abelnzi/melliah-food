@@ -15,7 +15,7 @@
 } */
 
 .bg-header{
-  background-image: linear-gradient(to bottom, #070007df, rgba(2, 2, 2, 0.343)), url("/imgs/header.jpg");
+  background-image: linear-gradient(to bottom, #070007df, rgba(2, 2, 2, 0.343)), url("/melliah-food/imgs/header.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
