@@ -42,7 +42,8 @@ function Layout({ children, page }) {
             <a>
               <div className="mx-4 my-2 cursor-pointer">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_PATH}/imgs/logo.png`}
+                  //src={`${process.env.NEXT_PUBLIC_PATH}/imgs/logo.png`}
+                  src="/imgs/logo.png"
                   alt="Logo"
                   width={150}
                   height={70}
