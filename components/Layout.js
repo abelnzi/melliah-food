@@ -41,7 +41,12 @@ function Layout({ children, page }) {
           <Link href="/">
             <a>
               <div className="mx-4 my-2 cursor-pointer">
-                <Image src="/logo.png" alt="Logo" width={150} height={70} />
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_PATH}/logo.png`}
+                  alt="Logo"
+                  width={150}
+                  height={70}
+                />
               </div>
             </a>
           </Link>

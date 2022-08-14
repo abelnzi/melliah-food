@@ -5,8 +5,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/Meliah-Food",
-  assetPrefix: "/Meliah-Food",
+  basePath: "/melliah-food",
+  assetPrefix: "/melliah-food",
 };
 
 module.exports = nextConfig;
